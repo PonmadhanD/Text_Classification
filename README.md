@@ -1,4 +1,4 @@
-__*****🎵 Synthetic Music Genre Classification using CatBoost*****__<br>
+__*****🎵 Synthetic Music Genre Classification using CatBoost*****__<br><br><br>
 **📌 Project Overview**<br>
 This project demonstrates an end-to-end machine learning pipeline for multi-class music genre classification using a synthetic dataset.
 Instead of relying on real-world data, the project generates a fully reproducible dataset simulating audio metadata and numerical features, making it ideal for learning, experimentation, and demonstration purposes.
