@@ -1,34 +1,80 @@
-__****Automated Text Classification Using Auto_ViML****__<br>
+__****🎵 Synthetic Music Genre Classification using CatBoost****__<br>
 **📌 Project Overview**<br>
-This project is an automated machine learning pipeline for text classification. It leverages the Auto_ViML library to handle preprocessing, feature engineering, model selection, and evaluation — drastically reducing the need for manual coding.
+This project demonstrates an end-to-end machine learning pipeline for multi-class music genre classification using a synthetic dataset.
+Instead of relying on real-world data, the project generates a fully reproducible dataset simulating audio metadata and numerical features, making it ideal for learning, experimentation, and demonstration purposes.
 
 **📂 Features**<br>
-Language Detection – Automatically detects and filters language.
+Synthetic dataset generation with realistic audio-related features
 
-Preprocessing – Cleans and prepares text data for training.
+11 music genres classification
 
-Automated Feature Engineering – Creates powerful features from raw text.
+Feature engineering with aggregated artist & track statistics
 
-Model Selection & Tuning – Chooses the best ML algorithm and optimizes it.
+CatBoostClassifier for high-performance, native categorical handling
 
-Evaluation Metrics – Generates accuracy, precision, recall, and F1-score reports.
+Stratified K-Fold Cross Validation for robust model evaluation
 
-**🛠 Tech Stack**<br>
+Log-loss scoring for probabilistic accuracy
+
+Confusion matrix visualization for fold analysis
+
+CSV output with predicted probabilities
+
+**🎯 Problem Statement**<br>
+Given a dataset of artist names, track metadata, and audio features, predict the genre of a song from the following classes:
+
+Acoustic/Folk
+
+Alt Music
+
+Blues
+
+Bollywood
+
+Country
+
+HipHop
+
+Indie Alt
+
+Instrumental
+
+Metal
+
+Pop
+
+Rock
+
+**🛠️ Tech Stack**<br>
 Language: Python 3.x
 
-Libraries: Auto_ViML, Pandas, scikit-learn, LangDetect, tqdm
+Libraries:
 
-**📈 Example Use Cases**<br>
-Sentiment Analysis
+pandas, numpy – Data handling
 
-Spam Detection
+scikit-learn – Model evaluation & utilities
 
-News Categorization
+catboost – Classifier
 
-Customer Feedback Classification
+matplotlib, seaborn – Visualization
 
-**🤝 Contributing**<br>
-Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
+**📊 Workflow**<br>
+Generate synthetic dataset simulating audio features
+
+Preprocess data & engineer aggregated features
+
+Split dataset using Stratified K-Fold
+
+Train CatBoost model on each fold
+
+Evaluate using log-loss and visualize results
+
+Save predictions to CSV
+
+**📈 Model Evaluation**<br>
+Metric: Log-loss (multi-class)
+
+Output: Confusion matrix, classification report per fold
 
 **📜 License**<br>
-This project is licensed under the MIT License — feel free to use and modify it.
+This project is licensed under the MIT License – feel free to use and modify for educational purposes.
