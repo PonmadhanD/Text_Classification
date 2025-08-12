@@ -1,4 +1,4 @@
-__****Automated Text Classification Using Auto_ViML****__␣␣
+__****Automated Text Classification Using Auto_ViML****__<br>
 **📌 Project Overview**
 This project is an automated machine learning pipeline for text classification. It leverages the Auto_ViML library to handle preprocessing, feature engineering, model selection, and evaluation — drastically reducing the need for manual coding.
 
